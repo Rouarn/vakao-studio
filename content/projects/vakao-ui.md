@@ -22,7 +22,7 @@ accent: blue
 featured: false
 order: 7
 links:
-  github: https://github.com/Rouarn/VakaoUI
+  github: https://github.com/Rouarn/vakao-ui
 metrics:
   - label: 包数量
     value: "4 个"

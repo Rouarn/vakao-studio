@@ -20,7 +20,7 @@ accent: purple
 featured: false
 order: 6
 links:
-  github: https://github.com/Rouarn/RequestInterceptorDebugger
+  github: https://github.com/Rouarn/request-interceptor-debugger
 metrics:
   - label: 捕获对象
     value: "fetch / XHR"

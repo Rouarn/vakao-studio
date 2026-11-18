@@ -73,7 +73,7 @@ const year = new Date().getFullYear();
           </p>
           <a
             class="link-underline mt-4 inline-flex items-center gap-1 text-sm text-ink"
-            href="https://github.com/Rouarn/Vakao-Studio"
+            href="https://github.com/Rouarn/vakao-studio"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -98,7 +98,7 @@ const year = new Date().getFullYear();
           <NuxtLink class="hud hover:text-ink" to="/about">关于</NuxtLink>
           <a
             class="hud hover:text-ink"
-            href="https://github.com/Rouarn/Vakao-Studio"
+            href="https://github.com/Rouarn/vakao-studio"
             target="_blank"
             rel="noopener noreferrer"
           >

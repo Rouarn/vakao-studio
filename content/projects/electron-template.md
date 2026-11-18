@@ -24,7 +24,7 @@ accent: blue
 featured: false
 order: 8
 links:
-  github: https://github.com/Rouarn/ElectronTemplate
+  github: https://github.com/Rouarn/electron-template
 metrics:
   - label: 进程模型
     value: "三端共享契约"

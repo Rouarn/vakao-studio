@@ -24,7 +24,7 @@ accent: orange
 featured: false
 order: 9
 links:
-  github: https://github.com/Rouarn/Wails3Template
+  github: https://github.com/Rouarn/wails-template
 metrics:
   - label: 运行时
     value: "Go 单进程"
