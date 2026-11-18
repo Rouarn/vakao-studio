@@ -79,6 +79,13 @@ useSeoMeta({
                 {{ repo.name }}
                 <ArrowUpRight :size="13" :stroke-width="1.8" />
               </a>
+              <span
+                v-if="repo.archived"
+                class="ml-2 inline-block rounded-full border border-line px-2 py-0.5 align-middle font-mono text-[10px] tracking-wider text-faint"
+                title="仓库已归档，只读保留"
+              >
+                已归档
+              </span>
               <p class="hud mt-2 text-faint">{{ repo.tag }}</p>
             </div>
             <p class="text-sm leading-7 text-muted md:col-span-8">{{ repo.desc }}</p>

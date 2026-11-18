@@ -3,6 +3,8 @@ export interface RepoEntry {
   desc: string;
   tag: string;
   url: string;
+  /** 仓库已归档（只读），页面会显示「已归档」标记 */
+  archived?: boolean;
 }
 
 export const products: RepoEntry[] = [
@@ -83,6 +85,7 @@ export const products: RepoEntry[] = [
     desc: "我屿闲记：配置驱动的纯静态个人主页，Vue 3 + UnoCSS + animal-island-vue。",
     tag: "个人站",
     url: "https://github.com/Rouarn/rouarn-isle",
+    archived: true,
   },
   {
     name: "woyuxiaji-site",
@@ -95,6 +98,7 @@ export const products: RepoEntry[] = [
     desc: "我与夏季：个人主页的早期版本。",
     tag: "个人站",
     url: "https://github.com/Rouarn/woyuxiaji-site-v1",
+    archived: true,
   },
   {
     name: "wallpaper-tool",
@@ -107,24 +111,28 @@ export const products: RepoEntry[] = [
     desc: "LocalSend 相关的个人项目。",
     tag: "实验",
     url: "https://github.com/Rouarn/localsend-share",
+    archived: true,
   },
   {
     name: "localsend-ws",
     desc: "LocalSend WebSocket 相关的个人实验。",
     tag: "实验",
     url: "https://github.com/Rouarn/localsend-ws",
+    archived: true,
   },
   {
     name: "frontend-samples",
     desc: "HTML / CSS / JavaScript / jQuery / Vue 前端实例合集。",
     tag: "示例",
     url: "https://github.com/Rouarn/frontend-samples",
+    archived: true,
   },
   {
     name: "onmyoji-pages",
     desc: "GitHub Pages 个人页面实验。",
     tag: "实验",
     url: "https://github.com/Rouarn/onmyoji-pages",
+    archived: true,
   },
 ];
 
