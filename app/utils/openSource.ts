@@ -27,6 +27,12 @@ export const products: RepoEntry[] = [
     url: "https://github.com/Rouarn/dianmo",
   },
   {
+    name: "lanlink",
+    desc: "内置 EasyTier 核心的一键局域网联机工具：Tauri v2 + Vue 3，房间码建房、自动组网与游戏端口直连。",
+    tag: "桌面工具",
+    url: "https://github.com/Rouarn/lanlink",
+  },
+  {
     name: "onmyoji-tools",
     desc: "阴阳师 Windows 工具：多开、窗口网格排列、声音跟随聚焦与一键关闭。",
     tag: "Windows",
