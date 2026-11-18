@@ -49,12 +49,14 @@ export const products: RepoEntry[] = [
     desc: "实时文本聊天：Vue 3 前端 + Express/Socket.IO 后端，支持昵称、在线列表与输入状态。",
     tag: "Web",
     url: "https://github.com/Rouarn/text-chat",
+    archived: true,
   },
   {
     name: "image-crawler",
     desc: "图片批量抓取工具：NestJS 后端 + React/AntD 前端，支持静态解析、无头浏览器、分页与并发下载。",
     tag: "工具",
     url: "https://github.com/Rouarn/image-crawler",
+    archived: true,
   },
   {
     name: "vakao-static-hub",
@@ -105,6 +107,7 @@ export const products: RepoEntry[] = [
     desc: "壁纸工具：壁纸抓取与管理的个人项目。",
     tag: "工具",
     url: "https://github.com/Rouarn/wallpaper-tool",
+    archived: true,
   },
   {
     name: "localsend-share",
@@ -166,12 +169,14 @@ export const foundations: RepoEntry[] = [
     desc: "博客重置版后端：认证、用户、文章、分类、文件、缓存与导入导出。",
     tag: "后端",
     url: "https://github.com/Rouarn/blog-reset-server",
+    archived: true,
   },
   {
     name: "blog-reset-web",
     desc: "博客重置版前端：Vue 3 + Naive UI + md-editor-v3，含文章、归档、标签与用户中心。",
     tag: "前端",
     url: "https://github.com/Rouarn/blog-reset-web",
+    archived: true,
   },
   {
     name: "vakao-axios",
